@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "":"vendor\\php-clases\\src"
+            "ColetaSeletiva\\":"vendor\\ColetaSeletiva\\php-classes\\src"
         }
     }
 }
