@@ -43,6 +43,18 @@ $app->get('/admin', function() {
     
 });
 
+// admin routes
+$app->get('/admin/signin', function() {
+    
+    $page = new PageAdmin([
+        "header"=> false,
+        "footer"=>false
+    ]);
+    
+    $page->setTpl("signin");
+    
+});
+
 $app->run();
 
 ?>
